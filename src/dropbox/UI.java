@@ -68,19 +68,13 @@ public class UI {
 				
 				GatherData.Data();
 				
-				
-				
-				
-				
-				
-				
-				
-				//try {
-				//	Upload.upload();
-				//} catch (FileNotFoundException e1) {
+				System.out.println("Uploading or accessing the file is bugged for now");
+				try {
+					Upload.upload();
+				} catch (FileNotFoundException e1) {
 					// TODO Auto-generated catch block
-				//	e1.printStackTrace();
-			//	}
+					e1.printStackTrace();
+				}
 				
 			}
 		});

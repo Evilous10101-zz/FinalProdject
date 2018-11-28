@@ -10,7 +10,7 @@ public abstract class PingTest {
 	public static void Test() {
 		// TODO Auto-generated method stub
 		
-	
+	//This works so no more edits to this for now
 	{
 	HttpURLConnection connection = null;
 	{

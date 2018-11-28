@@ -19,7 +19,8 @@ import com.dropbox.core.v2.users.FullAccount;
 public class Upload {
 	public static void upload() throws FileNotFoundException {
 	 {
-		
+		 System.getProperty("File");
+		 
 			
 	//Uploads Uploadingtxt.txt to dropbox
 	DbxRequestConfig config = new DbxRequestConfig("dropbox/java-tutorial", "en_US");
@@ -33,8 +34,8 @@ public class Upload {
 	}
     
 	
-    try (InputStream in = new FileInputStream("C:\\Programming Class\\Eclipse\\FinalProdjectFile")) {
-        FileMetadata metadata = client.files().uploadBuilder("/C:\\Programming Class\\Eclipse\\FinalProdjectFile")
+    try (InputStream in = new FileInputStream("C:\\Programming Class\\Eclipse\\FinalProdject\\File")) {
+        FileMetadata metadata = client.files().uploadBuilder("C:\\Programming Class\\Eclipse\\FinalProdject\\File")
             .uploadAndFinish(in);
 	
 
