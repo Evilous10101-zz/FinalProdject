@@ -11,6 +11,8 @@ import java.io.IOException;
 import java.awt.event.ActionEvent;
 import javax.swing.JTextPane;
 
+import com.dropbox.core.DbxException;
+
 public class UI {
 
 	private JFrame frame;
@@ -68,10 +70,16 @@ public class UI {
 				
 				GatherData.Data();
 				
-				System.out.println("Uploading or accessing the file is bugged for now");
+				System.out.println("Uploading the file is bugged for now");
 				try {
 					Upload.upload();
 				} catch (FileNotFoundException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				} catch (DbxException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				} catch (IOException e1) {
 					// TODO Auto-generated catch block
 					e1.printStackTrace();
 				}
