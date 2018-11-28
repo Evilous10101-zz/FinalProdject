@@ -7,6 +7,7 @@ import javax.swing.JLabel;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.awt.event.ActionEvent;
 import javax.swing.JTextPane;
 
@@ -18,6 +19,8 @@ public class UI {
 	 * Launch the application.
 	 */
 	public static void main(String[] args) {
+		System.out.println("Only use this program when you accept the EULA");
+		System.out.println("You can click the EULA button to see the EULA");
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
@@ -87,5 +90,21 @@ public class UI {
 		JTextPane textPane = new JTextPane();
 		textPane.setBounds(52, 54, 334, 133);
 		frame.getContentPane().add(textPane);
+		
+		JButton btnEula = new JButton("EULA");
+		btnEula.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				
+				try {
+					Userforapplication.EULA();
+				} catch (IOException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
+				
+			}
+		});
+		btnEula.setBounds(294, 11, 89, 23);
+		frame.getContentPane().add(btnEula);
 	}
 }
