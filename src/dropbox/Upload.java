@@ -19,7 +19,7 @@ import com.dropbox.core.v2.users.FullAccount;
 public class Upload {
 	public static void upload() throws FileNotFoundException {
 	 {
-		 System.getProperty("File");
+		// System.getProperty("C:\\Programming Class\\Eclipse\\FinalProdject\\File");
 		 
 			
 	//Uploads Uploadingtxt.txt to dropbox

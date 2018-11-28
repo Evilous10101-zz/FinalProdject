@@ -7,17 +7,7 @@ import java.io.PrintWriter;
 public abstract class GatherData {
 	public static void Data() {
 		// TODO Auto-generated method stub
-		System.out.println("Showing whate files Java can see. Trying to bug fix java not finding file");
-		File file = new File(".");
-		for(String fileNames : file.list()) System.out.println(fileNames);
-		//Tests if files exist even though it says it does
-		System.out.println("");
-		System.out.println("");
-		System.out.println("");
-		System.out.println("");
-		System.out.println("");
-	}
-	{
+		
 	 UI textPane = new UI();
 	 PrintWriter writer = null;
 	try {
@@ -27,5 +17,6 @@ public abstract class GatherData {
 		e.printStackTrace();
 	}
 		writer.println(textPane);
-	}
+		writer.close();
+}
 }
