@@ -13,7 +13,7 @@ public class Userforapplication {
 		File htmlFile = new File("C:\\Programming Class\\Eclipse\\FinalProdject\\index.html");
 		Desktop.getDesktop().browse(htmlFile.toURI());
     //Works for now and gets what it needs to do done so this class is finished for now
-		//index.html will be edited to look better and more formal
+		//index.html will be edited to look better and more formal. It looks better now but could be better
 }
 }
 

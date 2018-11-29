@@ -70,7 +70,7 @@ public class UI {
 				
 				GatherData.Data();
 				
-				System.out.println("Uploading the file is bugged for now");
+				System.out.println("Upload.upload(); is bugged for now for little to no reason");
 				try {
 					Upload.upload();
 				} catch (FileNotFoundException e1) {
