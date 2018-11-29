@@ -14,6 +14,7 @@ public abstract class PingTest {
 	{
 	HttpURLConnection connection = null;
 	{
+		System.out.println("This Ping test will see if Dropbox is online");
 		System.out.println("If the system prints out the number 200 or above dropbox is online");
     try {
         URL u = new URL("http://www.dropbox.com/");
@@ -30,7 +31,7 @@ public abstract class PingTest {
         g.printStackTrace();
     } finally {
         if (connection != null) {
-        	System.out.println("It works");
+        	System.out.println("It works, so the upload can work");
             connection.disconnect();
         }
     }
