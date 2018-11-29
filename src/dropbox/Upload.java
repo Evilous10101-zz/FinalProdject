@@ -4,8 +4,6 @@ import com.dropbox.core.DbxException;
 import com.dropbox.core.DbxRequestConfig;
 import com.dropbox.core.v2.DbxClientV2;
 import com.dropbox.core.v2.files.FileMetadata;
-import com.dropbox.core.v2.files.ListFolderResult;
-import com.dropbox.core.v2.files.Metadata;
 import com.dropbox.core.v2.users.FullAccount;
 
 import java.io.FileInputStream;
@@ -17,13 +15,13 @@ public class Upload {
 
     @SuppressWarnings({ "deprecation", "unused" })
 	public static void upload() throws DbxException, IOException {
-        // Create Dropbox client
-        DbxRequestConfig config = new DbxRequestConfig("dropbox/java-tutorial", "en_US");
+        // Create Dropbox client to try to upload. Main word night now is TRY.
+        DbxRequestConfig config = new DbxRequestConfig("dropbox/JavaUploadForJavaCSClass", "en_US");
         DbxClientV2 client = new DbxClientV2(config, ACCESSTOKEN);
 
-        // Get current account info
+        // Get current account info Like the name of how created the account
         FullAccount account = client.users().getCurrentAccount();
-        System.out.println("Owner of dropbox account: " + account.getName().getDisplayName());
+        System.out.println("Owner of this dropbox account: " + account.getName().getDisplayName());
 
         
 
