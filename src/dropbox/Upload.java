@@ -15,7 +15,7 @@ public class Upload {
 
     @SuppressWarnings({ "deprecation", "unused" })
 	public static void upload() throws DbxException, IOException {
-        // Create Dropbox client to try to upload. Main word night now is TRY.
+        // Create Dropbox client to try to upload. Main word night now is trying.
         DbxRequestConfig config = new DbxRequestConfig("dropbox/JavaUploadForJavaCSClass", "en_US");
         DbxClientV2 client = new DbxClientV2(config, ACCESSTOKEN);
 
