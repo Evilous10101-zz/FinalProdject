@@ -17,7 +17,7 @@ public abstract class PingTest {
 		System.out.println("This Ping test will see if Dropbox is online");
 		System.out.println("If the system prints out the number 200 or above dropbox is online");
     try {
-        URL u = new URL("http://www.dropbox.com/");
+        URL u = new URL("http://drive.google.com/");
         connection = (HttpURLConnection) u.openConnection();
         connection.setRequestMethod("HEAD");
         int code = connection.getResponseCode();
