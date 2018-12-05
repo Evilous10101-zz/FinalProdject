@@ -8,7 +8,7 @@ public abstract class GatherData {
 	public static void Data() {
 		// TODO Auto-generated method stub
 		
-	 UI textPane = new UI();
+	 UI editorPane = new UI();
 	 PrintWriter writer = null;
 	try {
 		writer = new PrintWriter(new File("File"));
@@ -17,7 +17,7 @@ public abstract class GatherData {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
 	}
-		writer.println(textPane);
+		writer.println(editorPane);
 		writer.close();
 }
 }
