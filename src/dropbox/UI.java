@@ -4,20 +4,26 @@ import java.awt.EventQueue;
 
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+
+import com.google.api.client.http.javanet.NetHttpTransport;
+
 import javax.swing.JEditorPane;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.io.IOException;
+import java.security.GeneralSecurityException;
 import java.awt.event.ActionEvent;
 
 public class UI {
 
+	protected static final NetHttpTransport HTTP_TRANSPORT = null;
 	private JFrame frame;
 
 	/**
 	 * Launch the application.
 	 */
 	public static void main(String[] args) {
+		System.out.println("Only use this program when you accept the EULA" + "You can click the EULA button to see the EULA");
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
@@ -47,7 +53,7 @@ public class UI {
 		frame.getContentPane().setLayout(null);
 		
 		JLabel lblGoogleDriveUploader = new JLabel("Google Drive Uploader");
-		lblGoogleDriveUploader.setBounds(94, 11, 205, 14);
+		lblGoogleDriveUploader.setBounds(137, 11, 162, 14);
 		frame.getContentPane().add(lblGoogleDriveUploader);
 		
 		JEditorPane editorPane = new JEditorPane();
@@ -77,20 +83,35 @@ public class UI {
 				
 			}
 		});
-		btnPingTester.setBounds(10, 227, 89, 23);
+		btnPingTester.setBounds(57, 227, 110, 23);
 		frame.getContentPane().add(btnPingTester);
 		
 		JButton btnUpload = new JButton("Upload");
 		btnUpload.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				//runs methods to upload
+				try {
+					GoogleDrive.getCredentials(HTTP_TRANSPORT);
+				} catch (IOException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
 				
+				
+				
+				try {
+					GoogleDrive.LIST();
+				} catch (IOException | GeneralSecurityException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
+				//GoogleDrive.UPLOAD();
 				
 				
 				
 			}
 		});
-		btnUpload.setBounds(109, 227, 89, 23);
+		btnUpload.setBounds(177, 227, 89, 23);
 		frame.getContentPane().add(btnUpload);
 		
 		JButton btnCreateNewUser = new JButton("Create New User");
@@ -103,7 +124,7 @@ public class UI {
 				
 			}
 		});
-		btnCreateNewUser.setBounds(210, 227, 148, 23);
+		btnCreateNewUser.setBounds(276, 227, 148, 23);
 		frame.getContentPane().add(btnCreateNewUser);
 	}
 }

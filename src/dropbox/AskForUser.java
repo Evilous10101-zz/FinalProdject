@@ -55,31 +55,31 @@ public class AskForUser {
 		frame.getContentPane().add(lblUsername);
 		
 		JLabel lblPassword = new JLabel("Password");
-		lblPassword.setBounds(31, 82, 46, 14);
+		lblPassword.setBounds(31, 82, 98, 14);
 		frame.getContentPane().add(lblPassword);
 		
 		JLabel lblEmail = new JLabel("Email");
-		lblEmail.setBounds(31, 107, 46, 14);
+		lblEmail.setBounds(31, 107, 98, 14);
 		frame.getContentPane().add(lblEmail);
 		
 		JLabel lblRetypePassword = new JLabel("Retype password");
-		lblRetypePassword.setBounds(31, 132, 98, 14);
+		lblRetypePassword.setBounds(31, 132, 153, 14);
 		frame.getContentPane().add(lblRetypePassword);
 		
 		JTextArea textArea = new JTextArea();
-		textArea.setBounds(100, 45, 156, 22);
+		textArea.setBounds(194, 45, 125, 22);
 		frame.getContentPane().add(textArea);
 		
 		JTextArea textArea_1 = new JTextArea();
-		textArea_1.setBounds(87, 77, 169, 22);
+		textArea_1.setBounds(194, 77, 125, 22);
 		frame.getContentPane().add(textArea_1);
 		
 		JTextArea textArea_2 = new JTextArea();
-		textArea_2.setBounds(87, 102, 169, 22);
+		textArea_2.setBounds(194, 102, 125, 22);
 		frame.getContentPane().add(textArea_2);
 		
 		JTextArea textArea_3 = new JTextArea();
-		textArea_3.setBounds(131, 132, 125, 22);
+		textArea_3.setBounds(194, 127, 125, 22);
 		frame.getContentPane().add(textArea_3);
 		
 		JButton btnCreateUser = new JButton("Create User");

@@ -28,7 +28,9 @@ public class CreateUser {
 		writer.println("Retyped Password: " + textArea_3);
 		writer.println("Testing " + textArea_4);
 		writer.close();
+		System.out.println("Data stored in file");
 }
+	
 }
 	
 

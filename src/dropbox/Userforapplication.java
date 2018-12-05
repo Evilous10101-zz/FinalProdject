@@ -28,14 +28,16 @@ public class Userforapplication {
         do
         {
             // add your ATM stuff here
-            
+            System.out.println("After you say yes or no, You should close the program since it might freeze up");
             // then when done:
             System.out.println( "Do you want to agree to the EULA?" + "please awnser Y for yes and N for no (This will repeat until you say yes)");
             answer = input.nextLine();
         }
         while( answer.equals( "N" ) );
+        System.out.println("System will exit");
+        System.exit(0);
     }
- int x = 1;
+ //int x = 1;
 
 }
 

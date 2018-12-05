@@ -1,3 +1,4 @@
+package dropbox;
 import com.google.api.client.auth.oauth2.Credential;
 import com.google.api.client.extensions.java6.auth.oauth2.AuthorizationCodeInstalledApp;
 import com.google.api.client.extensions.jetty.auth.oauth2.LocalServerReceiver;
@@ -26,10 +27,7 @@ public class GoogleDrive {
     private static final JsonFactory JSON_FACTORY = JacksonFactory.getDefaultInstance();
     private static final String TOKENS_DIRECTORY_PATH = "tokens";
 
-    /**
-     * Global instance of the scopes required by this quickstart.
-     * If modifying these scopes, delete your previously saved tokens/ folder.
-     */
+   
     private static final List<String> SCOPES = Collections.singletonList(DriveScopes.DRIVE_METADATA_READONLY);
     private static final String CREDENTIALS_FILE_PATH = "/credentials (1).json";
 
@@ -55,6 +53,9 @@ public class GoogleDrive {
                 .build();
         LocalServerReceiver receiver = new LocalServerReceiver.Builder().setPort(8888).build();
         return new AuthorizationCodeInstalledApp(flow, receiver).authorize("user");
+        
+        
+      
     }
 
     
@@ -84,6 +85,8 @@ public class GoogleDrive {
                 System.out.printf("%s (%s)\n", file.getName(), file.getId());
             }
         }
+       
+        
     }
     
     
