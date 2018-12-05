@@ -9,10 +9,13 @@ import java.util.Scanner;
 
 public class Userforapplication {
 	public static void EULA() throws IOException {
+		
+		
 	//Gets html file and opens it in default web browser
 	UI x = new UI();
-	UI yes = new UI();
-	UI no = new UI();
+	
+	//Parts to confirm if EULA was read
+	
 		File htmlFile = new File("index.html");
 		Desktop.getDesktop().browse(htmlFile.toURI());
     //Works for now and gets what it needs to do done so this class is finished for now
@@ -32,7 +35,7 @@ public class Userforapplication {
         }
         while( answer.equals( "N" ) );
     }
-
+ int x = 1;
 
 }
 

@@ -18,9 +18,8 @@ import com.google.api.client.http.javanet.NetHttpTransport;
 
 public class UI {
 	protected static final NetHttpTransport HTTP_TRANSPORT = null;
-	public static Boolean yes;
-	public static Boolean no;
-	public static  Boolean x = no;
+	
+	public static  int x = 0;
 	private JFrame frame;
 
 	/**
@@ -67,37 +66,8 @@ public class UI {
 				PingTest.Test();
 			}
 		});
-		btnTestToSee.setBounds(10, 227, 234, 23);
+		btnTestToSee.setBounds(10, 216, 234, 34);
 		frame.getContentPane().add(btnTestToSee);
-		
-		JButton btnUploadNewFile = new JButton("Upload File");
-		btnUploadNewFile.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				
-				try {
-					GoogleDrive.getCredentials(HTTP_TRANSPORT);
-				} catch (IOException e2) {
-					// TODO Auto-generated catch block
-					e2.printStackTrace();
-				}
-				
-				System.out.println("Did first item");
-				
-				try {
-					GoogleDrive.LIST();
-				} catch (IOException | GeneralSecurityException e2) {
-					// TODO Auto-generated catch block
-					e2.printStackTrace();
-				}
-				System.out.println("Did second Item");
-				
-				
-				
-					
-			}		
-		});
-		btnUploadNewFile.setBounds(254, 227, 139, 23);
-		frame.getContentPane().add(btnUploadNewFile);
 		
 		JTextPane textPane = new JTextPane();
 		textPane.setBounds(52, 54, 334, 133);
@@ -118,5 +88,30 @@ public class UI {
 		});
 		btnEula.setBounds(294, 11, 89, 23);
 		frame.getContentPane().add(btnEula);
+		
+		JButton btnUploadFile = new JButton("Upload File");
+		btnUploadFile.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				System.out.println("Trying");
+				try {
+					GoogleDrive.getCredentials(HTTP_TRANSPORT);
+				} catch (IOException e2) {
+					// TODO Auto-generated catch block
+					e2.printStackTrace();
+				}
+				
+				System.out.println("Did first item");
+				
+				try {
+					GoogleDrive.LIST();
+				} catch (IOException | GeneralSecurityException e2) {
+					// TODO Auto-generated catch block
+					e2.printStackTrace();
+				}
+				System.out.println("Did second Item");
+			}
+		});
+		btnUploadFile.setBounds(254, 216, 139, 34);
+		frame.getContentPane().add(btnUploadFile);
 	}
 }

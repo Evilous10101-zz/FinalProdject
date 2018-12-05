@@ -44,6 +44,7 @@ public class GoogleDrive {
     public static Credential getCredentials(final NetHttpTransport HTTP_TRANSPORT) throws IOException {
         // Load client secrets.
         InputStream in = GoogleDrive.class.getResourceAsStream(CREDENTIALS_FILE_PATH);
+        //Needs to login to google account
         GoogleClientSecrets clientSecrets = GoogleClientSecrets.load(JSON_FACTORY, new InputStreamReader(in));
 
         // Build flow and trigger user authorization request.
@@ -92,13 +93,20 @@ public class GoogleDrive {
     public static void UPLOAD() {
     	//Finds File and uploads it
     	File fileMetadata = new File();
-    	fileMetadata.setName("File");
+    	fileMetadata.setName("Order");
+    	fileMetadata.setMimeType("application/vnd.google-apps.spreadsheet");
+    	System.out.println("File is about to upload");
     	java.io.File filePath = new java.io.File("File");
     	FileContent mediaContent = new FileContent("File", filePath);
     	File file = driveService.files().create(fileMetadata, mediaContent)
     	    .setFields("id")
     	    .execute();
     	System.out.println("File ID: " + file.getId());
+    	System.out.println("File uploaded");
+    	
+    	
+    	
+    	
     	
 	}
     
