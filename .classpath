@@ -2,66 +2,112 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="C:/Programming Class/Eclipse/FinalProdject/dropbox-core-sdk-3.0.10/dropbox-core-sdk-3.0.10.jar" sourcepath="C:/Programming Class/Eclipse/Dropbox API/dropbox-core-sdk-3.0.10/dropbox-core-sdk-3.0.10-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Programming Class/Eclipse/FinalProdject/dropbox-core-sdk-3.0.10/lib/jackson-core-2.7.4.jar"/>
-	<classpathentry kind="lib" path="C:/Programming Class/Eclipse/FinalProdject/dropbox-core-sdk-3.0.10/dropbox-core-sdk-3.0.10-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/dropbox-core-sdk-3.0.10/dropbox-core-sdk-3.0.10-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/dropbox-core-sdk-3.0.10/dropbox-core-sdk-3.0.10.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/dropbox-core-sdk-3.0.10/lib/jackson-core-2.7.4.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/drive/google-api-services-drive-v3-rev136-1.25.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/drive/google-api-services-drive-v3-rev136-1.25.0-javadoc.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/drive/google-api-services-drive-v3-rev136-1.25.0-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/drive/libs/google-api-client-1.25.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/drive/libs/google-api-client-android-1.25.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/drive/libs/google-api-client-appengine-1.25.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/drive/libs/google-api-client-gson-1.25.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/drive/libs/google-api-client-jackson2-1.25.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/drive/libs/google-api-client-java6-1.25.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/drive/libs/google-api-client-servlet-1.25.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/drive/libs/google-http-client-1.25.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/drive/libs/google-http-client-android-1.25.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/drive/libs/google-http-client-appengine-1.25.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/drive/libs/google-http-client-gson-1.25.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/drive/libs/google-http-client-jackson2-1.25.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/drive/libs/google-http-client-jdo-1.25.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/drive/libs/google-oauth-client-1.25.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/drive/libs/google-oauth-client-appengine-1.25.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/drive/libs/google-oauth-client-java6-1.25.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/drive/libs/google-oauth-client-jetty-1.25.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/drive/libs/google-oauth-client-servlet-1.25.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/drive/libs/gson-2.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/drive/libs/httpclient-4.5.5.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/drive/libs/jackson-core-2.9.6.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/drive/libs/jdo2-api-2.3-eb.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/drive/libs/jetty-6.1.26.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/drive/libs/jetty-util-6.1.26.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/drive/libs/jsr305-3.0.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/drive/libs/transaction-api-1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/drive/libs-sources/google-api-client-1.25.0-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/drive/libs-sources/google-api-client-android-1.25.0-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/drive/libs-sources/google-api-client-appengine-1.25.0-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/drive/libs-sources/google-api-client-gson-1.25.0-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/drive/libs-sources/google-api-client-jackson2-1.25.0-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/drive/libs-sources/google-api-client-java6-1.25.0-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/drive/libs-sources/google-api-client-servlet-1.25.0-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/drive/libs-sources/google-http-client-1.25.0-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/drive/libs-sources/google-http-client-android-1.25.0-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/drive/libs-sources/google-http-client-appengine-1.25.0-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/drive/libs-sources/google-http-client-gson-1.25.0-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/drive/libs-sources/google-http-client-jackson2-1.25.0-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/drive/libs-sources/google-http-client-jdo-1.25.0-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/drive/libs-sources/google-oauth-client-1.25.0-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/drive/libs-sources/google-oauth-client-appengine-1.25.0-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/drive/libs-sources/google-oauth-client-java6-1.25.0-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/drive/libs-sources/google-oauth-client-jetty-1.25.0-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/drive/libs-sources/google-oauth-client-servlet-1.25.0-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/drive/libs-sources/gson-2.1-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/drive/libs-sources/httpclient-4.5.5-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/drive/libs-sources/jackson-core-2.9.6-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/drive/libs-sources/jdo2-api-2.3-eb-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/drive/libs-sources/jetty-6.1.26-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/drive/libs-sources/jetty-util-6.1.26-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Michael Lannon/eclipse-workspace/FinalProdject/drive/libs-sources/transaction-api-1.1-sources.jar"/>
 	<classpathentry kind="lib" path="drive"/>
+	<classpathentry kind="lib" path="drive/google-api-services-drive-v3-rev136-1.25.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="drive/google-api-services-drive-v3-rev136-1.25.0-sources.jar"/>
+	<classpathentry kind="lib" path="drive/google-api-services-drive-v3-rev136-1.25.0.jar"/>
+	<classpathentry kind="lib" path="drive/libs/google-api-client-1.25.0.jar"/>
+	<classpathentry kind="lib" path="drive/libs/google-api-client-android-1.25.0.jar"/>
+	<classpathentry kind="lib" path="drive/libs/google-api-client-appengine-1.25.0.jar"/>
+	<classpathentry kind="lib" path="drive/libs/google-api-client-gson-1.25.0.jar"/>
+	<classpathentry kind="lib" path="drive/libs/google-api-client-jackson2-1.25.0.jar"/>
+	<classpathentry kind="lib" path="drive/libs/google-api-client-java6-1.25.0.jar"/>
+	<classpathentry kind="lib" path="drive/libs/google-api-client-1.25.0.jar.properties"/>
+	<classpathentry kind="lib" path="drive/libs/google-api-client-android-1.25.0.jar.properties"/>
+	<classpathentry kind="lib" path="drive/libs/google-api-client-servlet-1.25.0.jar"/>
+	<classpathentry kind="lib" path="drive/libs/google-http-client-1.25.0.jar"/>
+	<classpathentry kind="lib" path="drive/libs/google-http-client-1.25.0.jar.properties"/>
+	<classpathentry kind="lib" path="drive/libs/google-http-client-android-1.25.0.jar"/>
+	<classpathentry kind="lib" path="drive/libs/google-http-client-android-1.25.0.jar.properties"/>
+	<classpathentry kind="lib" path="drive/libs/google-http-client-appengine-1.25.0.jar"/>
+	<classpathentry kind="lib" path="drive/libs/google-http-client-gson-1.25.0.jar"/>
+	<classpathentry kind="lib" path="drive/libs/google-http-client-gson-1.25.0.jar.properties"/>
+	<classpathentry kind="lib" path="drive/libs/google-http-client-jackson2-1.25.0.jar"/>
+	<classpathentry kind="lib" path="drive/libs/google-http-client-jackson2-1.25.0.jar.properties"/>
+	<classpathentry kind="lib" path="drive/libs/google-http-client-jdo-1.25.0.jar"/>
+	<classpathentry kind="lib" path="drive/libs/google-http-client-jdo-1.25.0.jar.properties"/>
+	<classpathentry kind="lib" path="drive/libs/google-oauth-client-1.25.0.jar"/>
+	<classpathentry kind="lib" path="drive/libs/google-oauth-client-1.25.0.jar.properties"/>
+	<classpathentry kind="lib" path="drive/libs/google-oauth-client-appengine-1.25.0.jar"/>
+	<classpathentry kind="lib" path="drive/libs/google-oauth-client-java6-1.25.0.jar"/>
+	<classpathentry kind="lib" path="drive/libs/google-oauth-client-jetty-1.25.0.jar"/>
+	<classpathentry kind="lib" path="drive/libs/google-oauth-client-servlet-1.25.0.jar"/>
+	<classpathentry kind="lib" path="drive/libs/gson-2.1.jar"/>
+	<classpathentry kind="lib" path="drive/libs/gson-2.1.jar.properties"/>
+	<classpathentry kind="lib" path="drive/libs/httpclient-4.5.5.jar"/>
+	<classpathentry kind="lib" path="drive/libs/jackson-core-2.9.6.jar"/>
+	<classpathentry kind="lib" path="drive/libs/jackson-core-2.9.6.jar.properties"/>
+	<classpathentry kind="lib" path="drive/libs/jdo2-api-2.3-eb.jar"/>
+	<classpathentry kind="lib" path="drive/libs/jetty-6.1.26.jar"/>
+	<classpathentry kind="lib" path="drive/libs/jetty-util-6.1.26.jar"/>
+	<classpathentry kind="lib" path="drive/libs/jsr305-3.0.2.jar"/>
+	<classpathentry kind="lib" path="drive/libs/transaction-api-1.1.jar"/>
+	<classpathentry kind="lib" path="drive/libs-sources/google-api-client-1.25.0-sources.jar"/>
+	<classpathentry kind="lib" path="drive/libs-sources/google-api-client-android-1.25.0-sources.jar"/>
+	<classpathentry kind="lib" path="drive/libs-sources/google-api-client-appengine-1.25.0-sources.jar"/>
+	<classpathentry kind="lib" path="drive/libs-sources/google-api-client-gson-1.25.0-sources.jar"/>
+	<classpathentry kind="lib" path="drive/libs-sources/google-api-client-jackson2-1.25.0-sources.jar"/>
+	<classpathentry kind="lib" path="drive/libs-sources/google-api-client-java6-1.25.0-sources.jar"/>
+	<classpathentry kind="lib" path="drive/libs-sources/google-api-client-servlet-1.25.0-sources.jar"/>
+	<classpathentry kind="lib" path="drive/libs-sources/google-http-client-1.25.0-sources.jar"/>
+	<classpathentry kind="lib" path="drive/libs-sources/google-http-client-android-1.25.0-sources.jar"/>
+	<classpathentry kind="lib" path="drive/libs-sources/google-http-client-appengine-1.25.0-sources.jar"/>
+	<classpathentry kind="lib" path="drive/libs-sources/google-http-client-gson-1.25.0-sources.jar"/>
+	<classpathentry kind="lib" path="drive/libs-sources/google-http-client-jackson2-1.25.0-sources.jar"/>
+	<classpathentry kind="lib" path="drive/libs-sources/google-http-client-jdo-1.25.0-sources.jar"/>
+	<classpathentry kind="lib" path="drive/libs-sources/google-oauth-client-1.25.0-sources.jar"/>
+	<classpathentry kind="lib" path="drive/libs-sources/google-oauth-client-appengine-1.25.0-sources.jar"/>
+	<classpathentry kind="lib" path="drive/libs-sources/google-oauth-client-java6-1.25.0-sources.jar"/>
+	<classpathentry kind="lib" path="drive/libs-sources/google-oauth-client-jetty-1.25.0-sources.jar"/>
+	<classpathentry kind="lib" path="drive/libs-sources/google-oauth-client-servlet-1.25.0-sources.jar"/>
+	<classpathentry kind="lib" path="drive/libs-sources/transaction-api-1.1-sources.jar"/>
+	<classpathentry kind="lib" path="drive/libs-sources/gson-2.1-sources.jar"/>
+	<classpathentry kind="lib" path="drive/libs-sources/httpclient-4.5.5-sources.jar"/>
+	<classpathentry kind="lib" path="drive/libs-sources/jackson-core-2.9.6-sources.jar"/>
+	<classpathentry kind="lib" path="drive/libs-sources/jdo2-api-2.3-eb-sources.jar"/>
+	<classpathentry kind="lib" path="drive/libs-sources/jetty-6.1.26-sources.jar"/>
+	<classpathentry kind="lib" path="drive/libs-sources/jetty-util-6.1.26-sources.jar"/>
+	<classpathentry kind="lib" path="drive/classpath-include"/>
+	<classpathentry kind="lib" path="drive/google-api-services-drive-v3-rev136-1.25.0.jar.properties"/>
+	<classpathentry kind="lib" path="drive/descriptor.json"/>
+	<classpathentry kind="lib" path="drive/LICENSE.txt"/>
+	<classpathentry kind="lib" path="drive/proguard-google-api-client.txt"/>
+	<classpathentry kind="lib" path="drive/readme.html"/>
+	<classpathentry kind="lib" path="drive/dependencies/APACHE-LICENSE.txt"/>
+	<classpathentry kind="lib" path="drive/dependencies/CDDL-LICENSE.txt"/>
+	<classpathentry kind="lib" path="drive/dependencies/google-api-client-android-dependencies.html"/>
+	<classpathentry kind="lib" path="drive/dependencies/google-api-client-appengine-dependencies.html"/>
+	<classpathentry kind="lib" path="drive/dependencies/google-api-client-dependencies.html"/>
+	<classpathentry kind="lib" path="drive/dependencies/google-api-client-gson-dependencies.html"/>
+	<classpathentry kind="lib" path="drive/dependencies/google-api-client-jackson2-dependencies.html"/>
+	<classpathentry kind="lib" path="drive/dependencies/google-api-client-java6-dependencies.html"/>
+	<classpathentry kind="lib" path="drive/dependencies/google-api-client-servlet-dependencies.html"/>
+	<classpathentry kind="lib" path="drive/dependencies/google-http-client-android-dependencies.html"/>
+	<classpathentry kind="lib" path="drive/dependencies/google-http-client-appengine-dependencies.html"/>
+	<classpathentry kind="lib" path="drive/dependencies/google-http-client-dependencies.html"/>
+	<classpathentry kind="lib" path="drive/dependencies/google-http-client-gson-dependencies.html"/>
+	<classpathentry kind="lib" path="drive/dependencies/google-http-client-jackson2-dependencies.html"/>
+	<classpathentry kind="lib" path="drive/dependencies/google-http-client-jdo-dependencies.html"/>
+	<classpathentry kind="lib" path="drive/dependencies/google-oauth-client-appengine-dependencies.html"/>
+	<classpathentry kind="lib" path="drive/dependencies/google-oauth-client-dependencies.html"/>
+	<classpathentry kind="lib" path="drive/dependencies/google-oauth-client-java6-dependencies.html"/>
+	<classpathentry kind="lib" path="drive/dependencies/google-oauth-client-jetty-dependencies.html"/>
+	<classpathentry kind="lib" path="drive/dependencies/google-oauth-client-servlet-dependencies.html"/>
+	<classpathentry kind="lib" path="drive/dependencies/css/maven-base.css"/>
+	<classpathentry kind="lib" path="drive/dependencies/css/maven-theme.css"/>
+	<classpathentry kind="lib" path="drive/dependencies/css/print.css"/>
+	<classpathentry kind="lib" path="drive/dependencies/css/site.css"/>
+	<classpathentry kind="lib" path="drive/dependencies/images/close.gif"/>
+	<classpathentry kind="lib" path="drive/dependencies/images/collapsed.gif"/>
+	<classpathentry kind="lib" path="drive/dependencies/images/external.png"/>
+	<classpathentry kind="lib" path="drive/dependencies/images/expanded.gif"/>
+	<classpathentry kind="lib" path="drive/dependencies/images/icon_error_sml.gif"/>
+	<classpathentry kind="lib" path="drive/dependencies/images/icon_info_sml.gif"/>
+	<classpathentry kind="lib" path="drive/dependencies/images/icon_success_sml.gif"/>
+	<classpathentry kind="lib" path="drive/dependencies/images/icon_warning_sml.gif"/>
+	<classpathentry kind="lib" path="drive/dependencies/images/newwindow.png"/>
+	<classpathentry kind="lib" path="drive/dependencies/images/logos/build-by-maven-black.png"/>
+	<classpathentry kind="lib" path="drive/dependencies/images/logos/build-by-maven-white.png"/>
+	<classpathentry kind="lib" path="drive/dependencies/images/logos/maven-feather.png"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

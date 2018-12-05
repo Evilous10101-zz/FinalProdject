@@ -7,6 +7,8 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 public abstract class PingTest {
+	
+	
 	public static void Test() {
 		// TODO Auto-generated method stub
 		

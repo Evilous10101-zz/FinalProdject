@@ -11,7 +11,8 @@ public abstract class GatherData {
 	 UI textPane = new UI();
 	 PrintWriter writer = null;
 	try {
-		writer = new PrintWriter(new File("C:\\Programming Class\\Eclipse\\FinalProdject\\File"));
+		writer = new PrintWriter(new File("File"));
+		//C:\\Programming Class\\Eclipse\\FinalProdject\\File
 	} catch (FileNotFoundException e) {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
