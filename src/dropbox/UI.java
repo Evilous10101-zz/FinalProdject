@@ -11,7 +11,7 @@ import java.io.IOException;
 import java.awt.event.ActionEvent;
 import javax.swing.JTextPane;
 
-import com.dropbox.core.DbxException;
+
 
 public class UI {
 
@@ -68,23 +68,7 @@ public class UI {
 		btnUploadNewFile.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
-				GatherData.Data();
-				
-				System.out.println("Upload.upload(); is bugged for now for little to no reason");
-				try {
-					Upload.upload();
-				} catch (FileNotFoundException e1) {
-					// TODO Auto-generated catch block
-					e1.printStackTrace();
-				} catch (DbxException e1) {
-					// TODO Auto-generated catch block
-					e1.printStackTrace();
-				} catch (IOException e1) {
-					// TODO Auto-generated catch block
-					e1.printStackTrace();
-				}
-				
-			}
+			}		
 		});
 		btnUploadNewFile.setBounds(254, 227, 139, 23);
 		frame.getContentPane().add(btnUploadNewFile);
