@@ -12,6 +12,7 @@ public class PasteBinTrending {
 	
 	{
 	System.out.println("If the word Testing comes up then it works");
+	System.out.println("");
 	final PastebinFactory factory = new PastebinFactory();
 	final Pastebin pastebin = factory.createPastebin("fe184858294cd01f8a00d4495057aaf0");
 	final String pasteKey = "jdmWPpV1";

@@ -88,7 +88,13 @@ public class UI {
 		btnUpload.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				//Shuts down program 
-			
+			System.out.println("Program will shut down");
+			try {
+				Thread.sleep(4000);
+			} catch (InterruptedException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			}
 				System.exit(0);
 				
 				
