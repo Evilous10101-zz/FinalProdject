@@ -32,28 +32,11 @@ public class CreateUser {
 		writer.close();
 		System.out.println("Data stored in file");
 }
-	
-	
-	
-	public static void writeFile3() throws IOException {
-		PrintWriter pw = new PrintWriter(new FileWriter("Users"));
-		 AskForUser textArea = new AskForUser();
-		 AskForUser textArea_1 = new AskForUser();
-		 AskForUser textArea_2 = new AskForUser();
-		 AskForUser textArea_3 = new AskForUser();
-		 AskForUser textArea_4 = new AskForUser();
-		for (int i = 0; i < 7; i++) {
-			pw.write("Username: " + textArea);
-			pw.write("Password: " + textArea_1);
-			pw.write("Email: " + textArea_2);
-			pw.write("Retyped Password: " + textArea_3);
-			pw.write("Testing " + textArea_4);
-			pw.write("something");
-		}
-	 
-		pw.close();
-	}
 }
+	
+	
+	
+
 	
 
 
