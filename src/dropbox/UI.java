@@ -5,7 +5,7 @@ import java.awt.EventQueue;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 
-import com.google.api.client.http.javanet.NetHttpTransport;
+
 
 import javax.swing.JEditorPane;
 import javax.swing.JButton;
@@ -17,7 +17,7 @@ import java.awt.Color;
 
 public class UI {
 
-	protected static final NetHttpTransport HTTP_TRANSPORT = null;
+	
 	private JFrame frame;
 
 	/**
