@@ -23,7 +23,7 @@ public class UI {
 	 * Launch the application.
 	 */
 	public static void main(String[] args) {
-		System.out.println("Only use this program when you accept the EULA" + "You can click the EULA button to see the EULA");
+		System.out.println("Only use this program when you accept the EULA " + "You can click the EULA button to see the EULA");
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
@@ -57,7 +57,7 @@ public class UI {
 		frame.getContentPane().add(lblGoogleDriveUploader);
 		
 		JEditorPane editorPane = new JEditorPane();
-		editorPane.setBounds(69, 36, 289, 162);
+		editorPane.setBounds(69, 36, 289, 150);
 		frame.getContentPane().add(editorPane);
 		
 		JButton btnEula = new JButton("EULA");
@@ -126,5 +126,32 @@ public class UI {
 		});
 		btnCreateNewUser.setBounds(276, 227, 148, 23);
 		frame.getContentPane().add(btnCreateNewUser);
+		
+		JButton btnReadPastebin = new JButton("Read PasteBin");
+		btnReadPastebin.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				
+				PasteBinTrending.Master();
+				System.out.println("");
+				
+			}
+		});
+		btnReadPastebin.setBounds(206, 198, 192, 23);
+		frame.getContentPane().add(btnReadPastebin);
+		
+		JButton btnSeeTrendingPastes = new JButton("See Trending Pastes");
+		btnSeeTrendingPastes.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				System.out.println("Getting trending paste from pastebin.com");
+				System.out.println("This will show titles of the trending pastes");
+				System.out.println("");
+				System.out.println("");
+				PasteBinTrending.Trending();
+				System.out.println("");
+				System.out.println("You cannot chose which one to view due to how the api is built");
+			}
+		});
+		btnSeeTrendingPastes.setBounds(10, 198, 186, 23);
+		frame.getContentPane().add(btnSeeTrendingPastes);
 	}
 }

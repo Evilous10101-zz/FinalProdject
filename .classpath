@@ -2,7 +2,6 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="drive"/>
 	<classpathentry kind="lib" path="drive/google-api-services-drive-v3-rev136-1.25.0-javadoc.jar"/>
 	<classpathentry kind="lib" path="drive/google-api-services-drive-v3-rev136-1.25.0-sources.jar"/>
 	<classpathentry kind="lib" path="drive/google-api-services-drive-v3-rev136-1.25.0.jar"/>
@@ -57,5 +56,8 @@
 	<classpathentry kind="lib" path="drive/libs-sources/jdo2-api-2.3-eb-sources.jar"/>
 	<classpathentry kind="lib" path="drive/libs-sources/jetty-6.1.26-sources.jar"/>
 	<classpathentry kind="lib" path="drive/libs-sources/jetty-util-6.1.26-sources.jar"/>
+	<classpathentry kind="lib" path="drive"/>
+	<classpathentry kind="lib" path="pastebin"/>
+	<classpathentry kind="lib" path="C:/Programming Class/Eclipse/FinalProdject/Pastebin-0.2.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

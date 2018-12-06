@@ -29,7 +29,7 @@ public class GoogleDrive {
 
    
     private static final List<String> SCOPES = Collections.singletonList(DriveScopes.DRIVE_METADATA_READONLY);
-    private static final String CREDENTIALS_FILE_PATH = "/credentials (1).json";
+    private static final String CREDENTIALS_FILE_PATH = "/credentials.json";
 
     /**
      * Creates an authorized Credential object.
@@ -106,8 +106,9 @@ public class GoogleDrive {
     	    .execute();
     	System.out.println("File ID: " + file.getId());
     	System.out.println("File uploaded");
-    	
-    	
+    	System.out.println("Exiting program in 4 seconds");
+    	Thread.sleep(4000);
+    	System.exit(0);
     	
     	
     	
