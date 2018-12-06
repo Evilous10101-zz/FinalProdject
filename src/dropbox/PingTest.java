@@ -16,8 +16,9 @@ public abstract class PingTest {
 	{
 	HttpURLConnection connection = null;
 	{
-		System.out.println("This Ping test will see if Dropbox is online");
+		System.out.println("This Ping test will see if Google drive is online");
 		System.out.println("If the system prints out the number 200 or above dropbox is online");
+		System.out.println("");
     try {
         URL u = new URL("http://drive.google.com/");
         connection = (HttpURLConnection) u.openConnection();
@@ -33,6 +34,7 @@ public abstract class PingTest {
         g.printStackTrace();
     } finally {
         if (connection != null) {
+        	System.out.println("");
         	System.out.println("It works, so the upload can work");
             connection.disconnect();
         }

@@ -13,6 +13,7 @@ import java.awt.event.ActionListener;
 import java.io.IOException;
 import java.security.GeneralSecurityException;
 import java.awt.event.ActionEvent;
+import java.awt.Color;
 
 public class UI {
 
@@ -52,15 +53,12 @@ public class UI {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
 		
-		JLabel lblGoogleDriveUploader = new JLabel("Google Drive Uploader");
-		lblGoogleDriveUploader.setBounds(137, 11, 162, 14);
+		JLabel lblGoogleDriveUploader = new JLabel("Utility tool By Michael Lannon\r\n");
+		lblGoogleDriveUploader.setBounds(108, 11, 278, 14);
 		frame.getContentPane().add(lblGoogleDriveUploader);
 		
-		JEditorPane editorPane = new JEditorPane();
-		editorPane.setBounds(69, 36, 289, 150);
-		frame.getContentPane().add(editorPane);
-		
 		JButton btnEula = new JButton("EULA");
+		btnEula.setForeground(Color.RED);
 		btnEula.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				try {
@@ -72,7 +70,7 @@ public class UI {
 				
 			}
 		});
-		btnEula.setBounds(309, 7, 89, 23);
+		btnEula.setBounds(335, 7, 89, 23);
 		frame.getContentPane().add(btnEula);
 		
 		JButton btnPingTester = new JButton("Ping tester");
@@ -83,35 +81,20 @@ public class UI {
 				
 			}
 		});
-		btnPingTester.setBounds(57, 227, 110, 23);
+		btnPingTester.setBounds(10, 227, 110, 23);
 		frame.getContentPane().add(btnPingTester);
 		
-		JButton btnUpload = new JButton("Upload");
+		JButton btnUpload = new JButton("Shut down\r\n");
 		btnUpload.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				//runs methods to upload
-				try {
-					GoogleDrive.getCredentials(HTTP_TRANSPORT);
-				} catch (IOException e1) {
-					// TODO Auto-generated catch block
-					e1.printStackTrace();
-				}
-				
-				
-				
-				try {
-					GoogleDrive.LIST();
-				} catch (IOException | GeneralSecurityException e1) {
-					// TODO Auto-generated catch block
-					e1.printStackTrace();
-				}
-				//GoogleDrive.UPLOAD();
-				
+				//Shuts down program 
+			
+				System.exit(0);
 				
 				
 			}
 		});
-		btnUpload.setBounds(177, 227, 89, 23);
+		btnUpload.setBounds(137, 227, 129, 23);
 		frame.getContentPane().add(btnUpload);
 		
 		JButton btnCreateNewUser = new JButton("Create New User");
@@ -145,7 +128,6 @@ public class UI {
 				System.out.println("Getting trending paste from pastebin.com");
 				System.out.println("This will show titles of the trending pastes");
 				System.out.println("");
-				System.out.println("");
 				PasteBinTrending.Trending();
 				System.out.println("");
 				System.out.println("You cannot chose which one to view due to how the api is built");
@@ -166,7 +148,23 @@ public class UI {
 				}
 			}
 		});
-		btnZipFiles.setBounds(10, 7, 117, 23);
+		btnZipFiles.setBounds(223, 164, 117, 23);
 		frame.getContentPane().add(btnZipFiles);
+		
+		JButton btnDownloadGit = new JButton("Download Git");
+		btnDownloadGit.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				
+				try {
+					Downloader.Test();
+				} catch (IOException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
+				
+			}
+		});
+		btnDownloadGit.setBounds(10, 164, 175, 23);
+		frame.getContentPane().add(btnDownloadGit);
 	}
 }

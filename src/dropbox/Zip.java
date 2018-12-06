@@ -17,6 +17,7 @@ public class Zip {
 	ZipOutputStream out = new ZipOutputStream(new FileOutputStream(f));
 	ZipEntry e = new ZipEntry("File");
 	ZipEntry b = new ZipEntry("Users.txt");
+	ZipEntry c = new ZipEntry("Git-2.18.0-64-bit.exe");
 	out.putNextEntry(e);
 	out.putNextEntry(b);
 
