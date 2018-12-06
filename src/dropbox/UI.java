@@ -153,5 +153,20 @@ public class UI {
 		});
 		btnSeeTrendingPastes.setBounds(10, 198, 186, 23);
 		frame.getContentPane().add(btnSeeTrendingPastes);
+		
+		JButton btnZipFiles = new JButton("Zip Files");
+		btnZipFiles.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				
+				try {
+					Zip.Create();
+				} catch (IOException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
+			}
+		});
+		btnZipFiles.setBounds(10, 7, 117, 23);
+		frame.getContentPane().add(btnZipFiles);
 	}
 }
