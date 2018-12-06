@@ -7,6 +7,7 @@ import javax.swing.JLabel;
 import javax.swing.JTextArea;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
+import java.io.IOException;
 import java.awt.event.ActionEvent;
 
 public class AskForUser {
@@ -87,6 +88,15 @@ public class AskForUser {
 			public void actionPerformed(ActionEvent e) {
 				
 				CreateUser.User();
+				
+				try {
+					CreateUser.writeFile3();
+				} catch (IOException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
+				
+				
 				System.out.println("User created");
 			}
 		});
