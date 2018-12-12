@@ -20,6 +20,7 @@ public class Zip {
 	ZipEntry c = new ZipEntry("Git-2.18.0-64-bit.exe");
 	out.putNextEntry(e);
 	out.putNextEntry(b);
+	out.putNextEntry(c);
 //Gets these files and zips them up
 	byte[] data = sb.toString().getBytes();
 	out.write(data, 0, data.length);
