@@ -16,11 +16,11 @@ public abstract class PingTest {
 	{
 	HttpURLConnection connection = null;
 	{
-		System.out.println("This Ping test will see if Google drive is online");
-		System.out.println("If the system prints out the number 200 or above dropbox is online");
+		System.out.println("This Ping test will see if PasteBin is online");
+		System.out.println("If the system prints out the number 200 or above PasteBin is online");
 		System.out.println("");
     try {
-        URL u = new URL("http://drive.google.com/");
+        URL u = new URL("https://pastebin.com/");
         connection = (HttpURLConnection) u.openConnection();
         connection.setRequestMethod("HEAD");
         int code = connection.getResponseCode();
@@ -35,7 +35,7 @@ public abstract class PingTest {
     } finally {
         if (connection != null) {
         	System.out.println("");
-        	System.out.println("It works, so the upload can work");
+        	System.out.println("It works, so any parts that deal with pastebin will work");
             connection.disconnect();
         }
     }

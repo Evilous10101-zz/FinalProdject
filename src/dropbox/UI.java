@@ -172,5 +172,18 @@ public class UI {
 		});
 		btnDownloadGit.setBounds(10, 164, 175, 23);
 		frame.getContentPane().add(btnDownloadGit);
+		
+		JButton btnViewGithubSource = new JButton("View Source Code");
+		btnViewGithubSource.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				
+				
+				DownloadingWebpageForBasicViewing.Downloading();
+				
+				
+			}
+		});
+		btnViewGithubSource.setBounds(10, 130, 161, 23);
+		frame.getContentPane().add(btnViewGithubSource);
 	}
 }
