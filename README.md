@@ -17,3 +17,19 @@ Can view the source code,
  
 Use this for whatever reason you want to.
 
+
+
+EULA
+----------------------------------------------------------------------------
+
+
+This is a basic EULA to state that you got a license to use this software and That Michael Richard Lannon owns it.
+
+
+
+This can be used for whatever reason you want. Just don't sell any data or accounts 
+You can edit it as much as you want. 
+
+
+If you cannot follow up with this then nothing will happen since I won't know. I am using a throwaway Google account with a mega.nz account for this project 
+-------------------------------------------------------------------
