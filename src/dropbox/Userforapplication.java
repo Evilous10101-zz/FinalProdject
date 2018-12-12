@@ -24,7 +24,7 @@ public class Userforapplication {
 		
 		Scanner input = new Scanner( System.in );
         String answer = null;
-        
+        System.out.println("If you try to close the application without saying yes or no the application will crash");
         do
         {
             
