@@ -89,7 +89,7 @@ public class AskForUser {
 				
 				CreateUser.User();
 				
-				
+				//gathers data and creates the user
 				
 				
 				System.out.println("User created");

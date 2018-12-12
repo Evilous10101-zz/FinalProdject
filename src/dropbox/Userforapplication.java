@@ -30,7 +30,7 @@ public class Userforapplication {
             // add your ATM stuff here
             System.out.println("After you say yes or no, You should close the program since it might freeze up");
             // then when done:
-            System.out.println( "Do you want to agree to the EULA?" + "please awnser Y for yes and N for no (This will repeat until you say yes. If you say yes the program will shut off)");
+            System.out.println( "Do you want to agree to the EULA?" + " Please awnser Y for yes and N for no (This will repeat until you say yes. If you say yes the program will shut off)");
             answer = input.nextLine();
         }
         while( answer.equals( "N" ) );

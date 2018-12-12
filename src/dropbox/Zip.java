@@ -26,7 +26,7 @@ public class Zip {
 	out.closeEntry();
 
 	out.close();
-	System.out.println("Files has been ziped up");
+	System.out.println("Files has been ziped up, check the directory this prodject is located");
 
 }
 }

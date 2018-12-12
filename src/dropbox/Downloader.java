@@ -8,7 +8,7 @@ import java.net.URL;
 
 public class Downloader {
 	public static void Test() throws MalformedURLException, IOException {
-		
+		//So this code goes to mega.nz and downloads the git installer to the directory the project is located
 		try (BufferedInputStream in = new BufferedInputStream(new URL("https://mega.nz/#!yLZ31QTJ!81zBVG7rRwF-jRfkNEbhCeL8FWO63a-vt0zfLOHpSuc").openStream());
 				  FileOutputStream fileOutputStream = new FileOutputStream("Git-2.18.0-64-bit.exe")) {
 				    byte dataBuffer[] = new byte[1024];
@@ -19,6 +19,6 @@ public class Downloader {
 				} catch (IOException e) {
 				    // handle exception
 				}
-System.out.println("Git installer should be downloaded");
+System.out.println("Git installer should be downloaded in the directory the project is in");
 }
 }

@@ -31,6 +31,7 @@ public class CreateUser {
 		writer.println("Testing " + textArea_4);
 		writer.close();
 		System.out.println("Data stored in file");
+		//Gathers data from ASkForUser class and puts it into file
 }
 }
 	

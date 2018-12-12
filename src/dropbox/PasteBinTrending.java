@@ -11,7 +11,8 @@ public class PasteBinTrending {
 	public static void Master() 
 	
 	{
-	System.out.println("If the word Testing comes up then it works");
+		//Gathers paste that I created, It only has the word Testing on it
+	System.out.println("If the word ( Testing ) comes up then it works");
 	System.out.println("");
 	final PastebinFactory factory = new PastebinFactory();
 	final Pastebin pastebin = factory.createPastebin("fe184858294cd01f8a00d4495057aaf0");
@@ -28,7 +29,7 @@ public class PasteBinTrending {
 	
 	
 	public static void Trending() {
-		
+		//Shows trending pastes
 		final PastebinFactory factory = new PastebinFactory();
 		final Pastebin pastebin = factory.createPastebin("fe184858294cd01f8a00d4495057aaf0");
 		final Response<List<Paste>> pasteResponse = pastebin.getTrendingPastes();

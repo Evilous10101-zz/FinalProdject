@@ -25,6 +25,7 @@ public class UI {
 	 */
 	public static void main(String[] args) {
 		System.out.println("Only use this program when you accept the EULA " + "You can click the EULA button to see the EULA");
+		System.out.println("Make sure pastebin api is marked as a jar instead of external jar or else pastebin api will not run");
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
@@ -185,5 +186,18 @@ public class UI {
 		});
 		btnViewGithubSource.setBounds(10, 130, 161, 23);
 		frame.getContentPane().add(btnViewGithubSource);
+		
+		JButton btnCreateOrder = new JButton("Create order");
+		btnCreateOrder.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				System.out.println("Write anything you want here in the editor plane");
+				Order.CreateOrder();
+				
+				
+			}
+			
+		});
+		btnCreateOrder.setBounds(223, 130, 163, 23);
+		frame.getContentPane().add(btnCreateOrder);
 	}
 }
